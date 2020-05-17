@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live corona map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="">
+        <div id="stats-input">
+            <select name="country" id="country">
+                <option value="Belgium">Belgium</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Germany">Germany</option>
+            </select>
+
+            <div id="input-number">
+                <label for="cases">Update amount of active cases:</label>
+                <input type="number" name="cases">
+            </div>
+
+            <button>Update stats</button>
+        </div>
+
+        <div id="stats-output">
+            <div>
+                <h2>Belgium</h2>
+                <p>Active cases:</p>
+                <p id="output-belgium">100</p>
+            </div>
+
+            <div>
+                <h2>Netherlands</h2>
+                <p>Active cases:</p>
+                <p id="output-netherlands">100</p>
+            </div>
+
+            <div>
+                <h2>Germany</h2>
+                <p>Active cases:</p>
+                <p id="output-germany">100</p>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
